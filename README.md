@@ -14,10 +14,11 @@ I'm a passionate security student and junior penetration tester focused on web a
 
 <div align="center">
   
-  <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Nmap.svg" width="50" height="50" title="Nmap"/>
+  <img src="nmap.png" width="50" height="50" title="Nmap"/>
   <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Docker.svg" width="50" height="50" title="Docker"/>
   <img src="https://tryhackme-images.s3.amazonaws.com/room-icons/66704dd0e54a1f39bff7b1a1-1735574248252" width="50" height="50" title="Metasploit"/>
-
+<img src="zaproxy.png" width="50" height="50" title="zap"/>
+<img src="burpsuite.svg" width="50" height="50" title="burpsuite"/>
 </div>
 
 **Tools I Master:**
