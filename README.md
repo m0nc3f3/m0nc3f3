@@ -44,7 +44,7 @@ I actively participate in **Capture The Flag competitions** and document my jour
 ## 📊 GitHub Stats
 
 ![Moncef's GitHub stats](https://github-readme-stats.vercel.app/api?username=m0nc3f&show_icons=true&theme=dark)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=m0nc3f&layout=compact&theme=dark)
+
 
 ## 🌐 Connect With Me
 
