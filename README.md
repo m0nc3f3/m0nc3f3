@@ -76,10 +76,3 @@ I'm always open to:
 ---
 
 *"The quieter you become, the more you are able to hear." - UNIX philosophy*
-- **Knowledge sharing**
-
-*Feel free to reach out - let's build something secure together.*
-
----
-
-*"The quieter you become, the more you are able to hear." - UNIX philosophy*
