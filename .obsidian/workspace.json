@@ -109,7 +109,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks"
             }
           },
           {
@@ -128,12 +127,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from README"
+              "title": "Outgoing links"
             }
           },
           {
@@ -157,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "write-ups/Untitled 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of Untitled 1"
             }
           }
         ]
@@ -185,15 +183,20 @@
       "yet-another-obsidian-synchronizer:YAOS": false
     }
   },
-  "active": "4db9582c6ef8709c",
+  "active": "7f1e93b7663dc7e7",
   "lastOpenFiles": [
+    "write-ups/hackthebox",
+    "write-ups/tryhackme",
+    "Untitled.md",
+    "write-ups/Untitled 1.md",
+    "README.md",
+    "write-ups",
     "images/burpsuite.svg",
     "images/Non confirmé 689134.crdownload",
     "images/nmap.png",
     "images/zaproxy.png",
     "images/zap.png",
     "images/Untitled.md",
-    "README.md",
     "images/Non confirmé 688173.crdownload",
     "images"
   ]
