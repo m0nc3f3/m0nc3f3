@@ -1,6 +1,6 @@
 # 👋 Hello, I'm Moncef Fennan
 
-**Jr. Penetration Tester | Security Student | Web App Security Enthusiast**
+**`Jr. Penetration Tester | Security Student | Web App Security Enthusiast`**
 
 ---
 
