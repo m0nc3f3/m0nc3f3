@@ -39,7 +39,7 @@ nmap -sT -p- 10.10.156.154
 The scan reveals 6 open TCP ports.
 
 
-![[/assets/nmap-scan 1.png]]
+![Image Description Here](/assets/nmap-scan 1.png)
 
 This scan immediately answers the first few questions.
 
