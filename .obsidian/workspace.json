@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "write-ups/tryhackme/Net Sec Challenge/Net Sec Challenge.md.md",
+                "file": "write-ups/tryhackme/Net Sec Challenge/Net Sec Challenge.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Net Sec Challenge.md"
+              "title": "Net Sec Challenge"
             }
           },
           {
@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "write-ups/tryhackme/Net Sec Challenge/Net Sec Challenge.md.md",
+                "file": "write-ups/tryhackme/Net Sec Challenge/Net Sec Challenge.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Net Sec Challenge.md"
+              "title": "Net Sec Challenge"
             }
           }
         ],
@@ -243,9 +243,12 @@
   },
   "active": "a5a9bbde3b068534",
   "lastOpenFiles": [
-    "Net.md",
-    "write-ups/tryhackme/Net Sec Challenge/Net Sec Challenge.md.md",
     "write-ups/tryhackme/Net Sec Challenge/assets/nmap-scan 1.png",
+    "write-ups/tryhackme/Net Sec Challenge/Net Sec Challenge.md",
+    "README.md",
+    "write-ups/tryhackme/tools-rus.md",
+    "notes/tools cheat-sheet.md",
+    "Net.md",
     "write-ups/tryhackme/Net Sec Challenge/assets/the counter 1.png",
     "assets/nmap-scan.md",
     "assets",
@@ -262,11 +265,8 @@
     "assets/http-header 1.png",
     "assets/![[nmap-scan.md",
     "_assets",
-    "README.md",
     "write-ups/tryhackme/Net Sec Challenge",
     "Net Sec Challenge.md",
-    "notes/tools cheat-sheet.md",
-    "write-ups/tryhackme/tools-rus.md",
     "notes",
     "write-ups/Untitled 1.md",
     "write-ups/hackthebox",
