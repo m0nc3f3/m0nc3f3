@@ -39,7 +39,7 @@ nmap -sT -p- 10.10.156.154
 The scan reveals 6 open TCP ports.
 
 
-![[nmap-scan 1.png]]
+![!nmap-scan](./assets/nmap-scan 1)
 
 This scan immediately answers the first few questions.
 
@@ -71,7 +71,7 @@ curl -I http://10.10.156.154 http://10.10.156.154
 
 The server response includes a flag directly in the `Flag` header.
 
-![Image Description Here](./_assets/nmap-scan 1)
+![[http-header 1.png]]
 > [!NOTE]
 > **Question:** What is the flag hidden in the HTTP server header?
 > **Answer:** `THM{web_server_25352}`
