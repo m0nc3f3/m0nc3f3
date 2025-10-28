@@ -47,11 +47,11 @@ This scan immediately answers the first few questions.
 > **Question:** What is the highest port number being open less than 10,000?
 > **Answer:** `8080`
 
-> [!success]
+> [!NOTE]
 > **Question:** There is an open port outside the common 1000 ports; it is above 10,000. What is it?
 > **Answer:** `10021`
 
-> [!success]
+> [!NOTE]
 > **Question:** How many TCP ports are open?
 > **Answer:** `6`
 
@@ -71,8 +71,8 @@ curl -I http://10.10.156.154 http://10.10.156.154
 
 The server response includes a flag directly in the `Flag` header.
 
-![[http-header 1.png]]
-> [!SUCCESS]
+![Image Description Here](./_assets/nmap-scan 1)
+> [!NOTE]
 > **Question:** What is the flag hidden in the HTTP server header?
 > **Answer:** `THM{web_server_25352}`
 
