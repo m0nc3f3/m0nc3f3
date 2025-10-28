@@ -35,7 +35,7 @@ We begin with a full TCP port scan using `nmap` to identify all open services.
 ```bash
 nmap -sT -p- 10.10.156.154
 ```
-![Nmap Scan Results](Net Sec Challenge/assets/nmap-scan 1.png)
+
 The scan reveals 6 open TCP ports.
 
 <img src="./assets/nmap-scan 1.png"/>
