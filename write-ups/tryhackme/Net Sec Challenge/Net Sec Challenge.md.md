@@ -18,7 +18,7 @@ tags:
 This document outlines the steps taken to complete the [Net Sec Challenge] room on TryHackMe. This medium-difficulty room focuses on enumeration of multiple services, banner grabbing, and simple file access.
 
 ## Table of Contents
-* [🚀 Scanning & Reconnaissance](#-scanning-&-reconnaissance)
+* [🚀 Scanning & Reconnaissance](#-scanning--reconnaissance)
 * [🕵️ Service Enumeration & Flag Hunting](#-service-enumeration--flag-hunting)
   * [Port 80 (HTTP)](#port-80-http)
   * [Port 22 (SSH)](#port-22-ssh)
