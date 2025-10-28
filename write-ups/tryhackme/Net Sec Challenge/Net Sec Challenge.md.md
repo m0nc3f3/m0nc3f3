@@ -43,7 +43,7 @@ The scan reveals 6 open TCP ports.
 
 This scan immediately answers the first few questions.
 
-> [!success]
+> [!NOTE]
 > **Question:** What is the highest port number being open less than 10,000?
 > **Answer:** `8080`
 
