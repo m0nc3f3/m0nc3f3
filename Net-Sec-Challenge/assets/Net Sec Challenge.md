@@ -12,20 +12,6 @@ tags:
   - web
   - hydra
 ---
----
-title: "TryHackMe: Net Sec Challenge Write-up"
-author: moncef fennan
-date: 2025-10-28
-tags:
-  - ctf
-  - tryhackme
-  - nmap
-  - enumeration
-  - ftp
-  - ssh
-  - web
-  - hydra
----
 
 # TryHackMe: [Net Sec Challenge] Write-up
 
