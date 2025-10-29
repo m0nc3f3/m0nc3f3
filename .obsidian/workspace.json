@@ -83,7 +83,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Net-Sec-Challenge/assets/Net Sec Challenge.md",
+                "file": "Net-Sec-Challenge/Net Sec Challenge.md",
                 "mode": "source",
                 "source": false
               },
@@ -244,7 +244,7 @@
   "active": "7f1e93b7663dc7e7",
   "lastOpenFiles": [
     "Net-Sec-Challenge/assets/flag.txt found using hydra to bruteforce quinn 1.png",
-    "Net-Sec-Challenge/assets/Net Sec Challenge.md",
+    "Net-Sec-Challenge/Net Sec Challenge.md",
     "Net.md",
     "Net-Sec-Challenge/assets/nmap-scan 1.png",
     "README.md",
