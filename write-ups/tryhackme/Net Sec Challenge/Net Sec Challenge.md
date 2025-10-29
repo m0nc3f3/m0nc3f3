@@ -72,6 +72,7 @@ curl -I http://10.10.156.154 http://10.10.156.154
 The server response includes a flag directly in the `Flag` header.
 
 <img src="./assets/http-header 1.png"/>
+
 > [!NOTE]
 > **Question:** What is the flag hidden in the HTTP server header?
 > **Answer:** `THM{web_server_25352}`
@@ -87,6 +88,7 @@ telnet 10.10.156.154 22
 The banner is displayed, containing another flag.
 
 <img src="./assets/ssh-header 1.png"/>
+
 > [!NOTE]
 > **Question:** What is the flag hidden in the SSH server header?
 > **Answer:** `THM{946219583339}`
@@ -99,6 +101,7 @@ The Nmap scan listed this port as "unknown." We can run a targeted version scan 
 nmap -sV -p 10021 10.10.156.154
 ```
 <img src="./assets/ftp version uknown port.png"/>
+
 ``Nmap correctly identifies the service as vsftpd 3.0.5.``
 
 > [!NOTE]
