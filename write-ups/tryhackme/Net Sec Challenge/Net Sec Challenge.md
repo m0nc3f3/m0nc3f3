@@ -71,7 +71,7 @@ curl -I http://10.10.156.154 http://10.10.156.154
 
 The server response includes a flag directly in the `Flag` header.
 
-![[http-header 1.png]]
+<img src="./assets/http-header 1.png"/>
 > [!NOTE]
 > **Question:** What is the flag hidden in the HTTP server header?
 > **Answer:** `THM{web_server_25352}`
@@ -86,8 +86,8 @@ telnet 10.10.156.154 22
 
 The banner is displayed, containing another flag.
 
-![[ssh-header 1.png]]
-> [!SUCCESS]
+<img src="./assets/ssh-header 1.png"/>
+> [!NOTE]
 > **Question:** What is the flag hidden in the SSH server header?
 > **Answer:** `THM{946219583339}`
 
@@ -98,10 +98,10 @@ The Nmap scan listed this port as "unknown." We can run a targeted version scan 
 ```bash
 nmap -sV -p 10021 10.10.156.154
 ```
-![[ftp version uknown port.png]]
+<img src="./assets/ftp version uknown port.png"/>
 ``Nmap correctly identifies the service as vsftpd 3.0.5.``
 
-> [!success]
+> [!NOTE]
 > **Question:** We have an FTP server listening on a nonstandard port. What is the version of the FTP server?
 > **Answer:** `vsftpd 3.0.5`
 
@@ -131,7 +131,7 @@ Hydra quickly finds a valid password: `jordan`.
 
 We log in using these credentials (`eddie`:`jordan`).
 
-![[ftp hydra rabbit-hole eddie.png]]
+<img src="./assets/ftp hydra rabbit-hole eddie.png"/>
 
 Despite a successful login, a thorough search of the directories reveals no flag. This is a common CTF "rabbit hole" designed to waste time.
 
@@ -145,7 +145,7 @@ Since the `eddie` account was a dead end, we repeat the brute-force attack, this
 ```bash
 hydra -l quinn -P /usr/share/wordlists/rockyou.txt -s 10021 10.10.156.154 ftp
 ```
-![[flag.txt found using hydra to bruteforce quinn 1.png]]
+<img src="./assets/flag.txt found using hydra to bruteforce quinn 1.png"/>
 
 Hydra finds another password: `andrea`. We log in with this new set of credentials (`quinn`:`andrea`).
 
@@ -153,7 +153,7 @@ This time, listing the files with `ls -a` reveals `ftp_flag.txt`. We download it
 
 
 
-> [!SUCCESS] 
+> [!NOTE] 
 > **Question:** We learned two usernames using social engineering: eddie and quinn. What is the 
 > flag hidden in one of these two account files and accessible via FTP? **Answer:** >
 > `THM{321452667098}`
@@ -163,22 +163,22 @@ This time, listing the files with `ls -a` reveals `ftp_flag.txt`. We download it
 ## 💻 Web Challenge (Port 8080)
 
 Finally, we browse to the web server running on port `8080`. **Note:** The screenshots confirm this challenge is on a different IP: `http://10.10.174.89:8080`.
-![[the counter 1.png]]
-The page presents a challenge: use `nmap` to scan the machine as covertly as possible to avoid being detected by the IDS.
 
+The page presents a challenge: use `nmap` to scan the machine as covertly as possible to avoid being detected by the IDS.
+<img src="./assets/the counter 1.png"/>
 A "loud" scan, like a default `nmap -sT` (TCP Connect scan), will be immediately detected by the IDS, and the page will update to show a 100% detection chance.
-![[100% by ids 1.png]]
+<img src="./assets/100% by ids 1.png"/>
 To solve this, we must use a null scan. A **Null scan** sends TCP packets with **no flags set** (all flag bits = 0). Closed ports typically reply with an RST while open or filtered ports often give **no response**, so tools like `nmap -sN` report those as `open|filtered`. 
 
 
 ```bash
 nmap -sN 10.10.174.89
 ```
-![[the flag.png]]
+<img src="./assets/the flag.png"/>
 After running a successful null scan, the page updates to show the challenge is complete and displays the final flag.
 
 
-> [!SUCCESS] 
+> [!NOTE] 
 > **Question:** Browsing to http://[IP]:8080 displays a small challenge that will give you a flag once
 > you solve it. What is the flag? **Answer:** `THM{f7443f99}`
 
