@@ -49,10 +49,10 @@ I actively participate in **Capture The Flag competitions** and document my jour
 ## 🌐 Connect With Me
 
 <div>
-  <a href="https://www.linkedin.com/in/moncef-fennan/">
+  <a href="https://www.linkedin.com/in/moncef-fennan/" target="_blank">
     <img src="https://skillicons.dev/icons?i=linkedin" width="50" height="50" />
   </a>
-  <a href="https://tryhackme.com/p/0xm0nc3f" style="margin-left: 15px;">
+  <a href="https://tryhackme.com/p/0xm0nc3f" style="margin-left: 15px;" target="_blank">
     <img src="https://tryhackme.com/img/favicon.png" width="50" height="50" style="border-radius: 50%;"/>
   </a>
 </div>
