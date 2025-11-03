@@ -69,30 +69,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Net-Sec-Challenge/assets/Net Sec Challenge.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Net Sec Challenge"
-            }
-          },
-          {
-            "id": "a5a9bbde3b068534",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Net-Sec-Challenge/Net Sec Challenge.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Net Sec Challenge"
+              "title": "README"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -241,17 +226,18 @@
       "yet-another-obsidian-synchronizer:YAOS": false
     }
   },
-  "active": "7f1e93b7663dc7e7",
+  "active": "243e43e9afc7d148",
   "lastOpenFiles": [
-    "Net-Sec-Challenge/assets/flag.txt found using hydra to bruteforce quinn 1.png",
+    "notes/tools cheat-sheet.md",
+    "README.md",
+    "Untitled.md",
+    "assets/nmap-scan.md",
     "Net-Sec-Challenge/Net Sec Challenge.md",
+    "Net-Sec-Challenge/assets/flag.txt found using hydra to bruteforce quinn 1.png",
     "Net.md",
     "Net-Sec-Challenge/assets/nmap-scan 1.png",
-    "README.md",
     "write-ups/tryhackme/tools-rus.md",
-    "notes/tools cheat-sheet.md",
     "Net-Sec-Challenge/assets/the counter 1.png",
-    "assets/nmap-scan.md",
     "assets",
     "Net-Sec-Challenge/assets/100% by ids 1.png",
     "Net-Sec-Challenge/assets/ftp hydra rabbit-hole eddie.png",
